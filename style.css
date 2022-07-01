@@ -6,17 +6,19 @@ body {
 }
 
 .left {
-    width: 30vw;
+    width: 40vw;
     display: flex;
     flex-direction: column;
-    background-color: forestgreen;
+    background-image: url(photos/photo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     justify-content: space-between;
 }
 
 .header {
     margin-top: 230px;
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.3;
 }
 
 .footer {
