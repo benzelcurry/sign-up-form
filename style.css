@@ -1,3 +1,47 @@
-h1 {
-    color: blue;
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.left {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    background-color: forestgreen;
+    justify-content: space-between;
+}
+
+.header {
+    margin-top: 230px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.footer {
+    background-color: grey;
+    opacity: 0.8;
+}
+
+.right {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.top {
+    background-color: violet;
+    flex-grow: 1;
+}
+
+.middle {
+    background-color: purple;
+    flex-grow: 1;
+}
+
+.bottom {
+    background-color: lightgreen;
+    flex-grow: 1;
 }
