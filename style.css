@@ -40,6 +40,7 @@ body {
     color: white;
     text-align: center;
     margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a:link {
@@ -54,20 +55,64 @@ a:visited {
     width: 70vw;
     display: flex;
     flex-direction: column;
-    background-color: blue;
 }
 
-.top {
-    background-color: violet;
-    flex-grow: 1;
+.top { 
+    display: flex;
+    background-color: #d6c1c1;
+    flex: 1 1 auto;
+    align-items: flex-end;
+}
+
+.top-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    width: clamp(45ch, 75%, 75ch);
+    margin-left: 32px;
 }
 
 .middle {
-    background-color: purple;
-    flex-grow: 1;
+    display: flex;
+    background-color: #f3f3f3;
+    flex: 1 1 auto;
 }
 
 .bottom {
-    background-color: lightgreen;
-    flex-grow: 1;
+    background-color: #d6c1c1;
+    flex: 1 1 auto;
+}
+
+fieldset {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 32px;
+}
+
+input, label {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+input {
+    width: 225px;
+    height: 30px;
+}
+
+button {
+    background-color: #596D48;
+}
+
+a.log-in:link {
+    color: #596D48;
+}
+
+a.log-in:visited {
+    color: #596D48;
 }
